@@ -21,6 +21,10 @@ export default function Home() {
                     <Featured />
                     <Chart />
                 </div>
+                <div className="listContainer">
+                    <div className="listTitle">Latest Transactions</div>
+                    {/* <Table /> */}
+                </div>
             </div>
         </div>
     )
