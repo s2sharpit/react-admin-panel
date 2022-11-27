@@ -77,7 +77,7 @@ export default function Tables() {
                 <TableBody>
                     {rows.map((row) => (
                         <TableRow
-                            key={row.name}
+                            key={row.id}
                         >
                             <TableCell>{row.id}</TableCell>
                             <TableCell className="tableCell" >

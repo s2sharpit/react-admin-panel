@@ -83,7 +83,6 @@ export default ({ type }) => {
 
     return (
         <div className="widget">
-            {console.log(data.title)}
             <div className="left">
                 <span className="title">{data.title}</span>
                 <span className="counter">{data.isMoney && "$"} {amount}</span>
