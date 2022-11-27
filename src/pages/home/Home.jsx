@@ -4,6 +4,7 @@ import Sidebar from '../../components/sidebar/Sidebar'
 import Widget from '../../components/widget/Widget'
 import Featured from '../../components/featured/Featured'
 import Chart from '../../components/chart/Chart'
+import Tables from '../../components/table/Table'
 
 export default function Home() {
     return (
@@ -23,7 +24,7 @@ export default function Home() {
                 </div>
                 <div className="listContainer">
                     <div className="listTitle">Latest Transactions</div>
-                    {/* <Table /> */}
+                    <Tables />
                 </div>
             </div>
         </div>

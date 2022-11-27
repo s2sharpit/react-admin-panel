@@ -1,7 +1,9 @@
-.home {
-    background-color: rebeccapurple;
+.list {
+    display: flex;
+    width: 100%;
 
-    .title {
-        color: white;
+    .listContainer {
+        flex: 6;
     }
+
 }
