@@ -28,7 +28,7 @@ export default function  Single() {
                                 </div>
                                 <div className="detailItem">
                                     <span className="itemKey">Address:</span>
-                                    <span className="itemValue">Hyderabad, India</span>
+                                    <span className="itemValue">Hyderabad, Bharat</span>
                                 </div>
                                 <div className="detailItem">
                                     <span className="itemKey">Country:</span>
